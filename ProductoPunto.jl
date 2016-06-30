@@ -1,6 +1,6 @@
 module ProductoPunto
 
-export miproducto
+export miproducto, miproducto2
 
 function miproducto(a::Vector{Float64},b::Vector{Float64})
     if length(a) == length(b)
